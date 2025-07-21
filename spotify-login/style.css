@@ -1,0 +1,335 @@
+body {
+    background: linear-gradient(to top, #000000, #313030);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-container {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 855px;
+    width: 730px;
+    background: linear-gradient(to bottom, rgb(21, 20, 20), rgb(17, 17, 17));
+    border-radius: 12px;
+    
+}
+
+.top {
+    height: 45px;
+    width: 730px;
+    margin-top: 35px;
+    display: flex;
+    justify-content: center;
+}
+
+.soptify-logo {
+    height: 36px;
+    width: 36px;
+    background-image: url(Spotify_Primary_Logo_RGB_White.png);
+    background-size: cover;
+}
+
+.log {
+    margin-top: -20px;
+    text-align: center;
+    color: aliceblue;
+    font-size: 30px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 650;
+    font-style: normal;
+}
+
+#all-staff {
+    height: 235px;
+    width: 330px;
+    margin-left: 198px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.google, .fb, .app, .ph {
+    height: 45px;
+    width: 320px;
+    border-radius: 25px;
+    border: 1px solid rgba(240, 248, 255, 0.5);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    transition: border 0.1s ease; /* Smooth transition for the hover effect */
+}
+
+.google:hover, .fb:hover, .app:hover, .ph:hover {
+    border: 1.25px solid rgba(240, 248, 255, 1); /* Hover effect */
+}
+
+.ggl-logo {
+    height: 25px;
+    width: 25px;
+    margin-left: -19px;
+    background-image: url("ggl.png");
+    background-size: cover;
+}
+
+.ggl-txt {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 10px;
+    margin-left: -15px;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.fb-logo {
+    height: 25px;
+    width: 25px;
+    margin-left: -19px;
+    background-image: url("facebook.png");
+    background-size: cover;
+}
+
+.fb-txt {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 10px;
+    margin-left: -15px;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.app-logo {
+    height: 25px;
+    width: 20px;
+    margin-top: -8px;
+    margin-left: -19px;
+    background-image: url("Apple_logo_white.svg.png");
+    background-size: cover;
+}
+
+.app-txt {
+    height: 30px;
+    width: 200px;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 10px;
+    margin-left: -15px;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.ph {
+    text-align: center; /* Center the text within the ph div */
+    justify-content: center; /* Center horizontally */
+}
+
+.ph-txt {
+    height: 30px;
+    width: 360px;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 10px;
+    color: aliceblue;
+    font-family: "Roboto", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+}
+.lower{
+    height: 430px;
+    width: 518px;
+    border-top: 1.25px solid rgba(240, 248, 255, 0.15);
+    margin-left: 100px;
+    margin-top: 30px;
+    display: flex;
+    flex-direction:column;
+}
+.email{
+    margin-top:50px ;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.email-txt{
+color :rgb(255, 255, 255);
+cursor :default;
+display :inline-block;
+font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+font-size: 15px;
+font-weight: 700;
+height :19.802px;
+width :150px;
+}
+#email-enter-box{
+    height: 39px;
+    width: 300px;
+    color: aliceblue;
+    margin-top: -10px;
+    border-radius: 5px;
+    border: 1.25px solid rgba(240, 248, 255, 0.15);
+    transition: border 0.1s ease;
+    background-color: transparent;
+    
+}
+#email-enter-box::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    color: rgba(240, 248, 255, 0.5);
+}
+#email-enter-box:hover{
+    border: 1.25px solid rgba(240, 248, 255,1)
+}
+#email-enter-box:focus {
+    border-width: 2.5px; /* Increase border width on focus */
+    outline: none; /* Remove default focus outline */
+}
+/*pass*/
+.password{
+    margin-top:25px ;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.password-txt{
+color :rgb(255, 255, 255);
+cursor :default;
+display :inline-block;
+font-family: SpotifyMixUI, CircularSp-Arab, CircularSp-Hebr, CircularSp-Cyrl, CircularSp-Grek, CircularSp-Deva, sans-serif;
+font-size: 15px;
+font-weight: 700;
+height :19.802px;
+width :150px;
+}
+#password-enter-box{
+    height: 39px;
+    width: 300px;
+    color: aliceblue;
+    margin-top: -10px;
+    border-radius: 5px;
+    border: 1.25px solid rgba(240, 248, 255, 0.15);
+    transition: border 0.1s ease;
+    background-color: transparent;
+    display: inline-block;
+}
+#password-enter-box::placeholder {
+    font-family: "Poppins", sans-serif;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 15px;
+    color: rgba(240, 248, 255, 0.5);
+}
+#password-enter-box:hover{
+    border: 1.25px solid rgba(240, 248, 255, 1); /* Hover effect */
+}
+#password-enter-box:focus {
+    border-width: 2.5px; /* Increase border width on focus */
+    outline: none; /* Remove default focus outline */
+}
+.eye{width:21px;
+    color: aliceblue;
+    background-color: pink;
+}
+.login{
+    z-index: auto;
+    height: 50px;
+    width: 320px;
+    margin-top: 28px;
+    margin-left: 90px;
+    border-radius: 30px;
+    background-color:rgb(30, 215, 96);
+    color :rgb(0, 0, 0);
+    font-size: 16px;
+    display: flex;
+    outline: none;
+    justify-content: center;
+    align-items: center;
+    border: none;
+}
+#login-txt{
+    height: 35px;
+    width: 280px;
+    padding-top: 10px;
+    text-align: center;
+    background-color:rgb(30, 215, 96);
+    border: none;
+    font-family: "Poppins", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    font-style: normal;
+    background-color: transparent;
+}
+  
+.login:hover {
+    transform: scale(1.04);
+    background-color:rgb(42, 237, 110);
+    font-size: 18px;
+}
+
+.forg{ margin-top: 30px;
+    text-align: center;
+    text-decoration: underline;
+    color:aliceblue;
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+}
+.last{ margin-top: 28px;
+    width:320;
+    color: aliceblue;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    
+}
+.dnt-hv-acc{
+    color: rgb(179, 179, 179);
+    font-family: "Poppins", sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    font-style: normal;
+}
+.signupfor-spo{
+    margin-left: 8px;
+    font-family: "Poppins", sans-serif;
+    font-size: 15.5px;
+    font-weight: 400;
+    font-style: normal;
+}
+a{
+    color: aliceblue;
+}
+a:hover{
+    color:rgb(30, 215, 96); ;
+}
+/*.datalist
+{ display: none;
+  background-color: rgba(240, 248, 255,0.9);
+  margin-top: 5px;
+  margin-bottom: 20px;
+  text-align: center;
+  width: 130px;
+}
+.option:hover
+{
+  background-color: rgb(130, 195, 231);
+}*/
